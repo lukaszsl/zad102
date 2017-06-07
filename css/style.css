@@ -3,6 +3,23 @@
 }
 
 body {
-	margin: 0;
 	padding: 0;
 }
+
+body, div {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+div p {
+	font-size: 20px;
+}
+
+button, p {
+	padding: 7px;
+}
+
+
+
